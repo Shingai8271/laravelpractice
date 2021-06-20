@@ -6,6 +6,7 @@
         <title>Blog</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/app.css">
         <!-- Styles -->
     </head>
     <body>
@@ -27,7 +28,6 @@
             'use strict';
             if (confirm('削除すると復元できません。\n本当に削除しますか？')) {
                 document.getElementById('form_delete').submit();
-                
             }
         }
        </script>
